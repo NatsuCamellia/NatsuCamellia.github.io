@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-image: url("image/background.jpg");
+  background-attachment: fixed;
+  font-size: 20px;
+  font-family: 'Noto Serif TC', serif;
+}
+
+body {
+  display: block;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  height: 3em;
+  background: #f9d342;
+  border-bottom: 1em solid white;
+}
+
+.logo {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "sidebar main ." "footer footer footer";
+  grid-gap: 1em;
+}
+
+nav {
+  grid-area: sidebar;
+  background: #f9d342;
+  position: sticky;
+  top: 4em;
+  align-self: start;
+}
+
+nav ul {
+  list-style: none;
+}
+
+main {
+  grid-area: main;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+article h1 {
+  text-align: center;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  background: white;
+}
