@@ -27,7 +27,7 @@ header {
 }
 
 .logo-content::before {
-  content: "NatsuCamellia";
+  content: "NatsuCamellia"
 }
 
 .main-wrapper {
