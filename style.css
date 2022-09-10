@@ -27,7 +27,7 @@ header {
 }
 
 .logo-content::before {
-  content: "NatsuCamellia"
+  content: "When The Summer Camellia Blooms";
 }
 
 .main-wrapper {
