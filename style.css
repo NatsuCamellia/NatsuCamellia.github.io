@@ -26,6 +26,10 @@ header {
   line-height: 1.5em;
 }
 
+.logo-content::before {
+  content: "NatsuCamellia";
+}
+
 .main-wrapper {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
