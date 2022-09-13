@@ -15,10 +15,7 @@ body {
 header {
   position: sticky;
   top: 0;
-  height: 3em;
   background: white;
-  display: flex;
-  justify-content: center;
 }
 
 .logo {
@@ -38,19 +35,17 @@ header {
     grid-template-areas: ". main ." "footer footer footer";
     grid-gap: 1em;
   }
-}
 
-nav {
-  grid-area: navbar;
-  background: navajowhite;
-  position: sticky;
-  top: 3em;
-  align-self: start;
+  header {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 header ul {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 
 header ul li {
