@@ -31,11 +31,13 @@ header {
   content: "NatsuCamellia";
 }
 
-.main-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-areas: ". main ." "footer footer footer";
-  grid-gap: 1em;
+@media screen and (min-width: 1000px) {
+  .main-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: ". main ." "footer footer footer";
+    grid-gap: 1em;
+  }
 }
 
 nav {
