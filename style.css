@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   background-image: url("image/background.jpg");
   background-attachment: fixed;
@@ -46,6 +47,7 @@ header ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 header ul li {
