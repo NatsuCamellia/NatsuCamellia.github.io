@@ -36,11 +36,6 @@ header {
     grid-template-areas: ". main ." "footer footer footer";
     grid-gap: 1em;
   }
-
-  header {
-    display: flex;
-    justify-content: center;
-  }
 }
 
 header ul {
