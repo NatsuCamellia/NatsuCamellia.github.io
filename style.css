@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap');
 * {
   box-sizing: border-box;
 }
 
 html {
-  background-image: url("image/background.jpg");
-  background-attachment: fixed;
-  font-size: 20px;
-  font-family: 'Noto Serif TC', serif;
+  background-color: #fff;
+  font-size: 18px;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 body {
   display: block;
+  line-height: 2em;
 }
 
 header {
@@ -29,42 +30,35 @@ header {
   content: "NatsuCamellia";
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
   .main-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: ". main ." "footer footer footer";
-    grid-gap: 1em;
+    display: block;
+    margin: 0 auto;
+    max-width: 650px;
   }
-}
 
-header ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
 
-header ul li {
-  padding-right: 1em;
-}
+  header ul li {
+    padding-right: 1em;
+  }
 
-main {
-  grid-area: main;
-  padding: 1em;
-  background: rgba(255, 255, 255, 0.3);
-}
+  article h1 {
+    text-align: center;
+  }
 
-article h1 {
-  text-align: center;
-}
+  footer {
+    grid-area: footer;
+    text-align: center;
+    background: white;
+  }
 
-footer {
-  grid-area: footer;
-  text-align: center;
-  background: white;
-}
-
-.footer-content::before {
-  content: "NatsuCamellia © 2022 All Right Reserved.";
+  .footer-content::before {
+    content: "NatsuCamellia © 2022 All Right Reserved.";
+  }
 }
