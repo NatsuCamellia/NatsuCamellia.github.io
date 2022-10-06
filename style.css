@@ -36,29 +36,29 @@ header {
     margin: 0 auto;
     max-width: 650px;
   }
+}
 
-  header ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
 
-  header ul li {
-    padding-right: 1em;
-  }
+header ul li {
+  padding-right: 1em;
+}
 
-  article h1 {
-    text-align: center;
-  }
+article h1 {
+  text-align: center;
+}
 
-  footer {
-    grid-area: footer;
-    text-align: center;
-    background: white;
-  }
+footer {
+  grid-area: footer;
+  text-align: center;
+  background: white;
+}
 
-  .footer-content::before {
-    content: "NatsuCamellia © 2022 All Right Reserved.";
-  }
+.footer-content::before {
+  content: "NatsuCamellia © 2022 All Right Reserved.";
 }
