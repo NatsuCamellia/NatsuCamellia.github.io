@@ -1,0 +1,19 @@
+header {
+    position: relative;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.link {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.link a {
+    color: coral;
+}
+
+.motto {
+    color: gray;
+}

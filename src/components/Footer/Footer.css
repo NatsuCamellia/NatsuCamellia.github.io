@@ -1,0 +1,9 @@
+footer {
+    grid-area: footer;
+    text-align: center;
+    background: white;
+}
+
+.footer-content::before {
+    content: "NatsuCamellia © 2022 All Right Reserved.";
+}
