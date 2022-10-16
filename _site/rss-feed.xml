@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>NatsuCamellia</title>
+		<description>If you can dream it, you can do it.</description>
+		<link></link>
+		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>跨出舒適圈，找尋自我</title>
+				
+					<dc:creator>NatsuCamellia</dc:creator>
+				
+				
+					<description>&lt;p&gt;我很幸運，從小就是班上的第一名，直到高中。因此也很自然地，高中升大學時我憑藉著校排的優勢，順利透過繁星上了台大。表面看來光鮮亮麗，背後卻是一段自我蛻變的過程。&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 16 Oct 2022 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/%E8%B7%A8%E5%87%BA%E8%88%92%E9%81%A9%E5%9C%88-%E6%89%BE%E5%B0%8B%E8%87%AA%E6%88%91</link>
+				<guid isPermaLink="true">http://localhost:4000/%E8%B7%A8%E5%87%BA%E8%88%92%E9%81%A9%E5%9C%88-%E6%89%BE%E5%B0%8B%E8%87%AA%E6%88%91</guid>
+			</item>
+		
+			<item>
+				<title>2022/10/08 國慶同學會</title>
+				
+					<dc:creator>NatsuCamellia</dc:creator>
+				
+				
+					<description>&lt;p&gt;幾天前我還在台北的時候，高中同學突然說要在麥寮的餐廳開同學會，當下只是覺得反正有空，不如去一下好了。後來昨天主辦的同學宣布每個人出的錢從 300 變成 500。我心中開始有點不想去了，吃一頓飯竟然要 500 ，實在是太貴了。但是今天我還是抱持著不去可能會後悔的心態參加了。&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 08 Oct 2022 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/%E5%9C%8B%E6%85%B6%E5%90%8C%E5%AD%B8%E6%9C%83</link>
+				<guid isPermaLink="true">http://localhost:4000/%E5%9C%8B%E6%85%B6%E5%90%8C%E5%AD%B8%E6%9C%83</guid>
+			</item>
+		
+			<item>
+				<title>2022/09/30 課輔志工行前訓練</title>
+				
+					<dc:creator>NatsuCamellia</dc:creator>
+				
+				
+					<description>&lt;p&gt;這個課輔志工計畫叫做「金華國中 99 學堂」，是一個由叫做「活力校園」的非營利教育團隊與「金華國中家長會」所主辦。目標是希望能夠幫助學生成績進步、找到個人特質與專長，讓學生建立良好的自信與自我價值。&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 30 Sep 2022 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/%E8%AA%B2%E8%BC%94%E5%BF%97%E5%B7%A5%E8%A1%8C%E5%89%8D%E8%A8%93%E7%B7%B4</link>
+				<guid isPermaLink="true">http://localhost:4000/%E8%AA%B2%E8%BC%94%E5%BF%97%E5%B7%A5%E8%A1%8C%E5%89%8D%E8%A8%93%E7%B7%B4</guid>
+			</item>
+		
+			<item>
+				<title>Welcome to Lagrange!</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;p&gt;Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/welcome-to-lagrange</link>
+				<guid isPermaLink="true">http://localhost:4000/welcome-to-lagrange</guid>
+			</item>
+		
+			<item>
+				<title>Getting Started</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;h1 id=&quot;lagrange&quot;&gt;Lagrange&lt;/h1&gt;
+</description>
+				
+				<pubDate>Sat, 10 Oct 2015 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/getting-started</link>
+				<guid isPermaLink="true">http://localhost:4000/getting-started</guid>
+			</item>
+		
+			<item>
+				<title>Text Formatting Examples</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;h1 id=&quot;markdown-support&quot;&gt;Markdown Support&lt;/h1&gt;
+</description>
+				
+				<pubDate>Wed, 01 Jan 2014 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/text-formatting-examples</link>
+				<guid isPermaLink="true">http://localhost:4000/text-formatting-examples</guid>
+			</item>
+		
+			<item>
+				<title>Learning Resources</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;p&gt;The beauty of computer programming is that you do not need to formally go to school to learn how to program. You can learn almost everything that you would need to know online, and for free. The following resources are some that I have used personally, that I highly recommend, for anyone looking to learn more about computer programming.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 10 Oct 2013 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/learning-resources</link>
+				<guid isPermaLink="true">http://localhost:4000/learning-resources</guid>
+			</item>
+		
+			<item>
+				<title>About the Author</title>
+				
+					<dc:creator>Paul Le</dc:creator>
+				
+				
+					<description>&lt;p&gt;Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Check out &lt;a href=&quot;https://www.lenpaul.com/&quot;&gt;my personal website&lt;/a&gt; for more information on my other projects (including more Jekyll themes!), as well as some of my writing.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 04 Apr 2013 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/about-the-author</link>
+				<guid isPermaLink="true">http://localhost:4000/about-the-author</guid>
+			</item>
+		
+	</channel>
+</rss>
