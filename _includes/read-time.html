@@ -1,5 +1,5 @@
 {% if post.layout != post %}
-  {% assign words = post.content | strip_html | number_of_words: %}
+  {% assign words = post.content | strip_html | size %}
   {% if words < 180 %}
     less than 1 minute read
   {% elsif words < 360 %}
