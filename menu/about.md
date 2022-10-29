@@ -25,6 +25,16 @@ permalink: /about
 - 趣味：プログラミング
 - ......
 
+### 各種神奇嵌入
+
+#### Github
+
+[![NatsuCamellia's GitHub stats](https://github-readme-stats.vercel.app/api?username=NatsuCamellia)](https://github.com/anuraghazra/github-readme-stats)
+
+#### Codewars
+
+![Codewars](https://www.codewars.com/users/NatsuCamellia/badges/large)
+
 ### 名稱由來
 
 高中一年級看完了「山茶花文具店」這本書後，我就對山茶花情有獨鍾，我去查了山茶花的花期、別名，得到了山茶花其中一個我覺得最好聽的別名「玉茗」，而山茶花有很多花期，唯不在夏季開花，因此我當初寫下了這句話：
