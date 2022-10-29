@@ -1,9 +1,9 @@
 ---
 ---
 
-$sans-serif-font-family: "Noto Sans TC", sans-serif;
-$serif-font-family:      "Noto Serif TC", Georgia, "Times New Roman", serif;
-$code-font-family:       "Fira Code", monospace;
+$sans-serif-font-family: Helvetica, Arial, sans-serif;
+$serif-font-family:      Times, serif;
+$code-font-family:       monospace;
 
 $body-color:             #505050;
 $link-color:             black;
@@ -31,5 +31,3 @@ $codepen-color:        black;
 $rss-color:            #ff6600;
 
 @import "-sections-dir";
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Noto+Serif+TC:wght@300&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css');
