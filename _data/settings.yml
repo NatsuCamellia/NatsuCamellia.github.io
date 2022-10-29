@@ -11,10 +11,8 @@ google-ID: ''
 
 menu:
 - {name: 'About',   url: 'about.html'}
-- {name: 'Writing', url: 'writing.html'}
-- {name: 'Journal', url: 'journal.html'}
-- {name: 'Thought', url: 'thought.html'}
-- {name: 'Data Structure', url: 'data-structure.html'}
+- {name: 'Writing',   url: 'writing.html'}
+- {name: 'Categories',   url: 'categories.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
