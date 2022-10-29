@@ -9,11 +9,13 @@ layout: default
 <ul class="posts-container">
   {% for post in site.posts %}
     {% unless post.next %}
+      <hr>
       <h3>{{ post.date | date: '%B %Y' }}</h3>
     {% else %}
       {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
       {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
       {% if month != nmonth %}
+        <hr>
         <h3>{{ post.date | date: '%B %Y' }}</h3>
       {% endif %}
     {% endunless %}
