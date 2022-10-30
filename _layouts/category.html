@@ -9,7 +9,7 @@ layout: default
 <ul class="posts-container">
   {% for category in site.categories %}
     <hr>
-    <h3>{{ category | first }}</h3>
+    <h2>{{ category | first }}</h2>
     {% for posts in category %}
       {% for post in posts %}
         {% if post.url %}
