@@ -33,13 +33,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: $dark-gray-color;
 }
 
 a:hover {
   color: $link-color;
-  text-decoration: underline;
+  text-decoration: none;
   border-bottom: none;
 }
 
