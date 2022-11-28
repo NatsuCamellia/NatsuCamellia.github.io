@@ -14,6 +14,9 @@ layout: default
 {% if site.hide_post_date != true %}
   {% include post-date.html %}
 {% endif %}
+{% if page.update %}
+  {% include update-date.html %}
+{% endif %}
 {% if site.data.settings.hide_post_share != true %}
   {% include social-sharing.html %}
 {% endif %}
