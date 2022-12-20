@@ -8,11 +8,11 @@ permalink: /about
 - 名稱：夏玉茗、NatsuCamellia
 - 出身：台灣雲林縣
 - 就讀學校：臺灣大學 資訊工程學系 一年級
-- 興趣：聽日文歌、彈古典吉他、程式解題
+- 興趣：聽日文歌、直笛、程式解題
 - 嗜好：學習程式技術、用程式寫想要的東西
 - 技術：Java、JDA、JavaFX
-- 正在學：寫網頁、日文、古典吉他、Java、演算法
-- 程式語言：Java 熟練級 > C 普通級 > Python 排斥級
+- 正在學：寫網頁、日文、Java、演算法
+- 程式語言：Java 熟練級 = C 熟練級 > Python 排斥級
 - 人類語言：華語 > 英語 > 閩南語 > 日語 > 客語
 
 --- 
@@ -21,25 +21,15 @@ permalink: /about
 - 出身：台湾雲林県
 - 学校：台湾大学
 - 専攻：情報工学
-- 興味：日本語、アルゴリズム、クラジックギター
+- 興味：日本語、アルゴリズム、リコーダー
 - 趣味：プログラミング
 - ......
-
-### 各種神奇嵌入
-
-#### Github
-
-[![NatsuCamellia's GitHub stats](https://github-readme-stats.vercel.app/api?username=NatsuCamellia)](https://github.com/anuraghazra/github-readme-stats)
-
-#### Codewars
-
-![Codewars](https://www.codewars.com/users/NatsuCamellia/badges/large)
 
 ### 名稱由來
 
 高中一年級看完了「山茶花文具店」這本書後，我就對山茶花情有獨鍾，我去查了山茶花的花期、別名，得到了山茶花其中一個我覺得最好聽的別名「玉茗」，而山茶花有很多花期，唯不在夏季開花，因此我當初寫下了這句話：
 
-> When the summer camellia blooms.
+> When camellia blooms in summer.
 
 有多種解讀，舉出兩種：
 
