@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Minecraft 模組計畫"
+author: "NatsuCamellia"
+categories: Journey
+tags: [Minecraft]
+image: 20230118/minecraft.jpg
+---
+
+我回到雲林之後就一直宅在家裡不知道要做什麼，直到某一天我突然看到一系列 [Minecraft 模組教學影片](https://www.youtube.com/playlist?list=PLKGarocXCE1EMxeBvqsOWZVkYD_Vd_uwW)，作者教的很好，發音也很標準，可以練英聽（？），而且我發現並不難，於是就開始研究模組了。
+
+## 開始動機
+
+剛開始我照著影片內的作法做，做著其實還挺有成就感的，於是我便打算來做一個模組。我突然想到之前很喜歡玩的 AppleMilkTea2（AMT2） ，裡面新增了很多食物和飲料，還有調酒系統，可惜版本一直待在 1.7.10 都沒有更新，我便打算將這個模組移植到 1.19.2 ，命名為 AppleMilkTea3（AMT3），作為我的寒假消遣。
+
+先說說為什麼這個作者停止更新了，根據該模組的 [CurseForge 頁面](https://www.curseforge.com/minecraft/mc-mods/applemilktea2)下原作者的留言表示，會停止更新的原因之一是他已經有新做了一個模組 Head and Climate（HAC） ，其中有一部份來自 AMT2 ，算是作為 AMT2 的重製版。此外，由於這個 CurseForge 頁面是原作者的朋友所擁有，下載模組的玩家常常會誤認原作者的朋友才是真正的作者，這讓原作者感到不太開心。
+
+再來是為什麼在有 HAC 的情況下我還要移植這個模組，一方面是因為這個模組在 1.12.2 版本，我本身是喜歡玩最新版本的玩家，這個五年前的版本實在不能接受；另一方面是我不太喜歡氣候系統，釀個酒還要找適當的氣候稍嫌麻煩，這樣就不能在我家裡蓋食物工廠了。
+
+## 著作權
+
+根據 [AMT2 Github](https://github.com/defeatedcrow/AppleMilkTea2_1.7.10) ，作者對於原始碼的條款採用 MMPL（Minecraft Mod Public License），其他人可以修改、引用並在同樣條款下發布修改過的模組；對於材質於音效，作者採用 CC-BY-NC 創用 CC 條款，也就是非營利、標明作者便可以使用。所以我的模組理論上是沒有著作權問題的。
+
+後來我想要把我的模組放上 CurseForge 讓朋友們方便安裝下載，但 CurseForge 管理跟我說 AMT2 在 CurseForge 發布時是 All Right Reserved ，也就是當時原作者的朋友設定的，因此我必須取得原作者的同意才能發佈我的模組。
+
+我並不想去和原作者洽談，因為原作者可能會覺得他已經做了 HAC 為什麼我還要重做 AMT ，再來是我可能會搶到原作者模組的下載量，最後是我可能會半途而廢，所以我就不公開發佈了，但我還是將 [AMT3 Github](https://github.com/NatsuCamellia/AppleMilkTea3_1.19.2) 設為公開，想要遊玩的讀者可以前往下載。
+
+## 困難一、版本老舊
+
+眾所皆知， 1.7.10 是一個非常古老的版本，在 2014 年 6 月推出，當時的程式碼和現在有很大的不同，模組內的資料分布也差很多，比如以前把配方材質都直接寫在 class 裏面，現在是 API 會自動去抓名稱相符的 json ，我要找以前的檔案都要翻很久。
+
+## 困難二、不熟練
+
+由於我才剛接觸模組，馬上就移植這麼大的模組，加上我是邊做邊學，效率自然不高，而且網上關於模組的文章實在不多，找資料不太容易，不過我相信很快就能上手了。
