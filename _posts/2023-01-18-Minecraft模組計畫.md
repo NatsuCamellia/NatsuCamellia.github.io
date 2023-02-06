@@ -2,7 +2,7 @@
 layout: post
 title: "Minecraft 模組計畫"
 author: "NatsuCamellia"
-categories: Journey
+categories: Journal
 tags: [Minecraft]
 image: 20230118/minecraft.jpg
 ---
