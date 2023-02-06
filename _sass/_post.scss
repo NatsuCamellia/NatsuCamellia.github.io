@@ -38,3 +38,9 @@
 .related-posts a {
   text-decoration: none;
 }
+
+article a {
+  text-decoration: underline;
+  color: cornflowerblue;
+  text-decoration-color: $extra-light-gray-color;
+}
