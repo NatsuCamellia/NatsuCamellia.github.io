@@ -21,7 +21,7 @@ layout: default
     {% endunless %}
     <li itemscope>
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      <p class="read-time"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%-d" }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span></p>
+      {% include read-time.html %}
     </li>
   {% endfor %}
 </ul>

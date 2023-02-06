@@ -14,7 +14,7 @@ layout: default
     {% endif %}
     <p>
       {{ post.content | strip_html | truncate: 100 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
-      <p class="read-time"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%d" }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span></p>
+      {% include read-time.html %}
     </p>
   </div>
 {% endfor %}
