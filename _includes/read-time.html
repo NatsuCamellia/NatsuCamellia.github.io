@@ -1,20 +1,26 @@
-{% if post.layout != post %}
-  {% assign words = post.content | strip_html | size %}
-  {% if words < 180 %}
-    less than 1 minute read
-  {% elsif words < 360 %}
-    1 minute read
-  {% else %}
-    {{ words | divided_by:180 }} minute read
-  {% endif %}
-{% endif %}
-{% if post.layout == post %}
-  {% assign words = content | number_of_words %}
-  {% if words < 180 %}
-    less than 1 minute read
-  {% elsif words < 360 %}
-    1 minute read
-  {% else %}
-    {{ words | divided_by:180 }} minute read
-  {% endif %}
-{% endif %}
+<p class="read-time">
+  <span> 
+    <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%d" }} - <i class="fa fa-clock-o" aria-hidden="true"></i>
+      {% if post.layout != post %}
+        {% assign words = post.content | strip_html | size %}
+        {% if words < 180 %}
+          less than 1 minute read
+        {% elsif words < 360 %}
+          1 minute read
+        {% else %}
+          {{ words | divided_by:180 }} minute read
+        {% endif %}
+      {% endif %}
+      {% if post.layout == post %}
+        {% assign words = content | number_of_words %}
+        {% if words < 180 %}
+          less than 1 minute read
+        {% elsif words < 360 %}
+          1 minute read
+        {% else %}
+          {{ words | divided_by:180 }} minute read
+        {% endif %}
+      {% endif %}
+    </i>
+  </span>
+</p>
