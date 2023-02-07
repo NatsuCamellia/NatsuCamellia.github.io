@@ -1,12 +1,5 @@
 <span class="post-date">
     {{ site.data.settings.update_date_prefix }}
-    {% assign d = page.update | date: "%-d"  %}
-    {{ page.update| date: "%B" }}
-    {% case d %}
-      {% when '1' or '21' or '31' %}{{ d }}st
-      {% when '2' or '22' %}{{ d }}nd
-      {% when '3' or '23' %}{{ d }}rd
-      {% else %}{{ d }}th{% endcase %},
-    {{ page.update | date: "%Y" }}
-  </span>
+    {{ page.date | date: "%Y-%m-%d" }}
+</span>
   
