@@ -1,6 +1,6 @@
 <p class="read-time">
   <span> 
-    <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%d" }} - <i class="fa fa-clock-o" aria-hidden="true"></i>
+    {{ post.date | date: "%Y-%m-%d" }} - 
       {% if post.layout != post %}
         {% assign words = post.content | strip_html | size %}
         {% if words < 180 %}

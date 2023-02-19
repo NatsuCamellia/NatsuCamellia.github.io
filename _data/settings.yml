@@ -13,15 +13,6 @@ menu:
 - {name: 'About',   url: 'about.html'}
 - {name: 'Writing',   url: 'writing.html'}
 
-# Available social icons are powered by Font Awesome, so you can use any icon that they offer
-social:
-- {icon: 'github',     link: 'https://github.com/NatsuCamellia'}
-# - {icon: 'twitter',    link: 'https://twitter.com/paululele'}
-# - {icon: 'linkedin',   link: 'http://www.linkedin.com/in/lenpaul/'}
-- {icon: 'envelope',   link: 'mailto:natsucamellia@gmail.com'}
-# - {icon: 'rss-square', link: '/feed.xml'}
-# - {icon: 'rss-square', link: '/rss-feed.xml'}
-
 # Customize site text
 pagination:
   next_page: 'Newer'
