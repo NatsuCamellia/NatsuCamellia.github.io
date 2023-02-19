@@ -11,6 +11,9 @@ layout: default
 {% if page.image %}
   <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
 {% endif %}
+{% if page.unsplashid %}
+  {% include unsplash.html %}
+{% endif %}
 <article>
   {{ content }}
 </article>
