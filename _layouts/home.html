@@ -4,13 +4,13 @@ layout: default
 
 {% for post in paginator.posts %}
   <div class="posts-container">
-    <h1>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    </h1>
-    <p>
-      {{ post.content | strip_html | truncate: 100 }}
-      {% include read-time.html %}
-    </p>
+    <a href="{{ site.github.url }}{{ post.url }}">
+      <h2>{{ post.title }}</h2>
+      <p>
+        {{ post.content | strip_html | truncate: 100 }}
+      </p>
+    </a>
+    {% include read-time.html %}
   </div>
 {% endfor %}
 <!-- Pagination links -->
