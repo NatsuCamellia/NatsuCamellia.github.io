@@ -10,6 +10,7 @@ hide_related_posts: true
 google-ID: 'G-3X2CNCRM7L'
 
 menu:
+- {name: 'Home',   url: ''}
 - {name: 'About',   url: 'about.html'}
 - {name: 'Writing',   url: 'writing.html'}
 
