@@ -1,7 +1,7 @@
 # Site Build Settings
 
 # jekyll-paginate configuration
-paginate:            20
+paginate:            10
 
 # Build settings
 markdown:            kramdown
