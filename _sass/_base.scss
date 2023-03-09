@@ -5,7 +5,7 @@
 body {
   font-family: $sans-serif-font-family;
   font-size: 18px;
-  color: $body-color;
+  color: $text-color;
   line-height: 2rem;
 }
 
@@ -24,24 +24,23 @@ h1{
   text-align: center;
 }
 
-h1 a {
-  text-decoration: none;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $serif-font-family;
   color: $dark-gray-color;
 }
 
-a {
-  text-decoration: none;
-  color: $dark-gray-color;
+div.container {
+  overflow: hidden;
 }
 
-a:hover {
-  color: $link-color;
+::selection {
+  background: $selection-color;
+  color: white;
+}
+
+a {
   text-decoration: none;
-  border-bottom: none;
+  color: $text-color;
 }
 
 img {
@@ -63,13 +62,15 @@ figcaption {
 blockquote {
   margin: 10px 20px 10px;
   padding: 0px 15px;
-  border-left: 0.25em solid $extra-light-gray-color;
-  color: $light-gray-color;
+  border-left: 0.25em solid $accent-color;
+  color: $text-color;
+  font-weight: bold;
+  font-style: italic;
   line-height: 1.5;
 }
 
 hr {
-  border-top: 1px solid $extra-light-gray-color;
+  border-top: 1px solid $accent-color;
 }
 
 /*
@@ -92,5 +93,5 @@ th, td {
 }
 
 strong {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #e3e3e3 50%);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 50%, $strong-color 100%);
 }

@@ -8,8 +8,13 @@
   list-style: none;
 }
 
+div.posts-container {
+  padding-left: 20px;
+  border-left: 0.25em solid $main-color;
+}
+
 .posts-container a p {
-  color: $body-color;
+  color: $text-color;
   margin: 0px;
 }
 
@@ -44,8 +49,8 @@
 }
 
 .pagination-button {
-  color: $light-gray-color;
-  border: 1px solid $pagination-button-color;
+  color: $pagination-button-text-color;
+  border: 1px solid $pagination-button-border-color;
   padding: 15px 45px;
   display: inline-block;
   font-size: 16px;
@@ -58,5 +63,5 @@
 }
 
 .pagination-active:hover {
-  background-color: $pagination-button-color;
+  background-color: $pagination-button-border-color;
 }

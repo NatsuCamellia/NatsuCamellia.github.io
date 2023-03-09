@@ -5,7 +5,7 @@
 .post-date {
   display: block;
   margin-bottom: 1rem;
-  color: $light-gray-color;
+  color: $post-date-color;
   font-family: $sans-serif-font-family;
   font-size: 1rem;
   text-align: center;
@@ -15,7 +15,7 @@
   display: block;
   margin-top:3px;
   margin-bottom: 1rem;
-  color: $dark-gray-color;
+  color: $read-time-color;
   font-family: $sans-serif-font-family;
   font-size:0.8rem;
 }
@@ -41,6 +41,11 @@
 
 article a {
   text-decoration: underline;
-  color: cornflowerblue;
-  text-decoration-color: $extra-light-gray-color;
+  color: $link-color;
+  font-weight: bold;
+  text-decoration-color: $link-color;
+}
+
+article a:hover {
+  background-color: $main-color;
 }

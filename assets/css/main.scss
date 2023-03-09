@@ -5,11 +5,22 @@ $sans-serif-font-family: "LXGW WenKai", Helvetica, Arial, sans-serif;
 $serif-font-family:      "LXGW WenKai", Times, serif;
 $code-font-family:       monospace;
 
-$body-color:             #505050;
-$link-color:             black;
+$main-color:             #F5DE83;
+$secondary-color:        #AFBF73;
+$accent-color:           #D95E32;
+
+$body-color:             $main-color;
+$text-color:             black;
+$link-color:             $accent-color;
+$strong-color:           $main-color;
+$selection-color:        $secondary-color;
+
+$post-date-color:        $accent-color;
+$read-time-color:        $accent-color;
 
 $code-background-color:   #f5f5f5;
-$pagination-button-color: #e0e0e0;
+$pagination-button-text-color: $main-color;
+$pagination-button-border-color: $main-color;
 
 $dark-gray-color:        #333;
 $light-gray-color:       #999;
