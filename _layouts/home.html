@@ -6,10 +6,20 @@ layout: default
   <div class="posts-container">
     <a href="{{ site.github.url }}{{ post.url }}">
       <h2>{{ post.title }}</h2>
-      <p>
-        {{ post.content | strip_html | truncate: 100 }}
-      </p>
+      {% if post.unsplashid %}
+      <figure class="thumbnail-container">
+        <img src="https://source.unsplash.com/{{ post.unsplashid }}/width=615" alt="Unsplash" />
+      </figure>
+      {% endif %}
+      {% if post.image %}
+      <div class="thumbnail-container">
+        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+      </div>
+      {% endif %}
     </a>
+    <p>
+      {{ post.content | strip_html | truncate: 100 }}
+    </p>
     {% include read-time.html %}
   </div>
 {% endfor %}
