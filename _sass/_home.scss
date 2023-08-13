@@ -56,7 +56,7 @@
 
 .pagination-button {
   color: $pagination-button-text-color;
-  border: 1px solid $pagination-button-border-color;
+  border: 2px solid $pagination-button-border-color;
   padding: 15px 45px;
   display: inline-block;
   font-size: 16px;
@@ -69,5 +69,5 @@
 }
 
 .pagination-active:hover {
-  background-color: $pagination-button-border-color;
+  background-color: $pagination-button-hover-color;
 }
