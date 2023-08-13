@@ -56,13 +56,19 @@
 */
 
 .menu {
-  padding-top: 0.5rem;
-  display: block;
+  float: right;
 }
 
 .menu-content a {
   font-size: 1rem;
-  padding-right: 10px;
+  border: $secondary-color solid 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.menu-content a:hover {
+  background-color: $pagination-button-hover-color;
+  color: $link-color;
 }
 
 .social-icons {
