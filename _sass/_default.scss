@@ -12,6 +12,13 @@
   margin-bottom: 4rem;
 }
 
+.content-container h1 {
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: $main-color;
+}
+
 /*48em*/
 
 @media (max-width: $container-responsive-width) {
