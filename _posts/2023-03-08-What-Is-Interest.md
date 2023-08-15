@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "興趣的意義是什麼"
+author: "NatsuCamellia"
+categories: Thought
 update: 2023-03-09
 ---
 

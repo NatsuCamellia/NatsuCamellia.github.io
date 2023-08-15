@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Minecraft 礦物掉落"
+author: "NatsuCamellia"
+categories: Minecraft
 image: 
 update: 2023-02-07
 ---

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Java 序列化"
+author: "NatsuCamellia"
+categories: Java
 ---
 
 當類別實作 `java.io.Serializable` 後，物件就可以被輸出到檔案中，稱為序列化。同樣也可以被讀取，稱為反序列化。

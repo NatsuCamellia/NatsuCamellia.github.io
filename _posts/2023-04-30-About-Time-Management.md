@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "關於時間規劃這檔事"
+author: "NatsuCamellia"
+categories: Thought
 unsplashid: BXOXnQ26B7o
 ---
 
