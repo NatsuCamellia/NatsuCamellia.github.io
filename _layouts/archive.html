@@ -8,17 +8,11 @@ layout: default
 
 <ul class="posts-container">
   {% for post in site.posts %}
-    {% unless post.next %}
-      <hr>
+    {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+    {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+    {% if month != nmonth %}
       <h2>{{ post.date | date: '%B %Y' }}</h2>
-    {% else %}
-      {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
-      {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
-      {% if month != nmonth %}
-        <hr>
-        <h2>{{ post.date | date: '%B %Y' }}</h2>
-      {% endif %}
-    {% endunless %}
+    {% endif %}
     <li itemscope>
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
       {% include read-time.html %}
