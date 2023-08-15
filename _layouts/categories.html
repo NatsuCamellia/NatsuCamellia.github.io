@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+
+{% for category in site.categories %}
+<ul class="posts-container">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <h2>{{ category_name }}</h2>
+    {% for post in site.categories[category_name] %}
+    <li itemscope>
+        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+        {% include read-time.html %}
+      </li>
+    {% endfor %}
+</ul>
+{% endfor %}

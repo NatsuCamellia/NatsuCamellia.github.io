@@ -13,6 +13,7 @@ menu:
 - {name: 'Home',   url: ''}
 - {name: 'About',   url: 'about.html'}
 - {name: 'Writing',   url: 'writing.html'}
+- {name: 'Categories',   url: 'categories.html'}
 
 # Customize site text
 pagination:
