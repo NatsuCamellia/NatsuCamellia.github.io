@@ -4,10 +4,9 @@
 
 body {
   font-family: $sans-serif-font-family;
-  font-size: 1.25rem;
+  font-size: 18px;
   color: $text-color;
   line-height: 2rem;
-  letter-spacing: 0.1rem;
   margin: 0;
 }
 
@@ -23,7 +22,6 @@ body {
 
 h1{
   font-size: 2rem;
-  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
