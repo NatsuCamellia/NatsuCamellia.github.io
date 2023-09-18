@@ -14,12 +14,15 @@ layout: default
 <article>
   {{ content }}
 </article>
-{% if site.hide_post_date != true %}
-  {% include post-date.html %}
-{% endif %}
-{% if page.update %}
-  {% include update-date.html %}
-{% endif %}
+<span class="post-date">
+  {% if site.hide_post_date != true %}
+    {% include post-date.html %},
+  {% endif %}
+  {% if page.update %}
+    {% include update-date.html %},
+  {% endif %}
+  by {{ site.author }}.
+</span>
 {% if site.data.settings.hide_post_share != true %}
   {% include social-sharing.html %}
 {% endif %}
