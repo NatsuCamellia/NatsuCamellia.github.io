@@ -1,13 +1,17 @@
 ---
 ---
 
-$sans-serif-font-family: "LXGW Wenkai", Helvetica, Arial, sans-serif;
-$serif-font-family:      "LXGW Wenkai", Times, serif;
+$sans-serif-font-family: "Noto Sans TC", Helvetica, Arial, sans-serif;
+$serif-font-family:      "Noto Serif TC", Times, serif;
 $code-font-family:       monospace;
 
 $main-color:             #F5DE83;
 $secondary-color:        #AFBF73;
 $accent-color:           #D95E32;
+
+$dark-gray-color:        #333;
+$light-gray-color:       #999;
+$extra-light-gray-color: #ccc;
 
 $body-color:             $main-color;
 $text-color:             black;
