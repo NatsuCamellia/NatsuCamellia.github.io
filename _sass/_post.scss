@@ -38,13 +38,8 @@
   text-decoration: none;
 }
 
-article a {
+p a {
   text-decoration: underline;
-  color: $link-color;
   font-weight: bold;
   text-decoration-color: $link-color;
-}
-
-article a:hover {
-  background-color: $main-color;
 }
