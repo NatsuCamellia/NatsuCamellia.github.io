@@ -11,7 +11,7 @@ layout: default
     {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
     {% if month != nmonth %}
-      <h2>{{ post.date | date: '%B %Y' }}</h2>
+      <h3>{{ post.date | date: '%B %Y' }}</h3>
     {% endif %}
     <li itemscope>
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
