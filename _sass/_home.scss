@@ -3,24 +3,14 @@
 */
 
 .posts-container {
-  border-radius: 10px;
-  border: 2px solid $secondary-color;
   margin-bottom: 3rem;
-  padding: 10px;
+  padding: 0px;
   list-style: none;
-  text-align: center;
 }
 
 .posts-container a p {
   color: $text-color;
   margin: 0px;
-}
-
-.posts-container h2 {
-  border-radius: 10px;
-  margin: 10px 0px;
-  padding: 10px;
-  background-color: $main-color;
 }
 
 /*
@@ -32,7 +22,6 @@
   overflow: hidden;
   margin-bottom: 25px;
   border-radius: 10px;
-  border: 2px solid $secondary-color;
 }
 
 .thumbnail-container img{
