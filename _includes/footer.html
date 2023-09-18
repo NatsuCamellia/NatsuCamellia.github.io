@@ -1,3 +1,4 @@
 <footer class="footer">
-  <div class="footer-description">© 2023 {{ site.title }} All rights reserved.</div>
+  {% include social-icons.html %}
+  <div class="footer-description"><a href="{{ site.github.url }}/">{{ site.title }} | {{ site.description }}</a></div>
 </footer>
