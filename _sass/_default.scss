@@ -33,28 +33,21 @@
 
 .header {
   padding: 0.5rem 0;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   font-family: $sans-serif-font-family;
-  background-color: $main-color;
-  border-radius: 0 0 10px 10px;
-}
-
-.header a:hover {
-  color:black;
 }
 
 .header-title {
   margin-bottom: 0px;
-  text-align: center;
 }
 
 .header-title a {
+  color: $text-color;
   font-size: 2rem;
   text-decoration: none;
 }
 
 .header-subtitle {
-  display: block;
   color: $light-gray-color;
 }
 
@@ -62,20 +55,24 @@
   Menu
 */
 
+.menu {
+  padding-top: 0.5rem;
+  display: block;
+}
+
 .menu-content {
-  display: flex;
-  justify-content: center;
+  float: left;
 }
 
 .menu-content a {
   font-size: 1rem;
-  margin: 0px 10px;
-  padding: 5px;
-  border-radius: 10px;
+  padding-right: 10px;
+  color: $light-gray-color;
+  font-weight: bold;
 }
 
 .menu-content a:hover {
-  color: $link-color;
+  color: $link-hover-color;
 }
 
 .social-icons {
