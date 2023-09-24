@@ -11,7 +11,7 @@ layout: default
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <h3>{{ category_name }}</h3>
     {% for post in site.categories[category_name] %}
-    <li itemscope>
+    <li itemscope class="archive-item">
         <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
         <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
       </li>
