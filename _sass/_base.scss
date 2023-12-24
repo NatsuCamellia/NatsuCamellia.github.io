@@ -8,10 +8,13 @@ html {
 
 body {
   font-family: $sans-serif-font-family;
-  letter-spacing: 0.07rem;
   color: $text-color;
   line-height: 2rem;
   margin: 0;
+}
+
+p {
+  letter-spacing: 0.07rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
