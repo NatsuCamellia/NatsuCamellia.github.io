@@ -17,7 +17,6 @@ menu:
 social:
 - {icon: 'github',     link: 'https://www.github.com/NatsuCamellia'}
 - {icon: 'envelope',   link: 'mailto:natsucamellia@gmail.com'}
-- {icon: 'rss-square', link: '/feed.xml'}
 
 # Customize site text
 pagination:
