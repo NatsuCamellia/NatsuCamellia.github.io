@@ -47,7 +47,7 @@
 }
 
 .pagination-button {
-  color: $pagination-button-text-color;
+  color: $pagination-button-text-invalid-color;
   border: 2px solid $pagination-button-border-color;
   padding: 15px 45px;
   display: inline-block;
@@ -57,9 +57,10 @@
 }
 
 .pagination-active {
-  color: $link-color;
+  color: $pagination-button-text-color;
 }
 
 .pagination-active:hover {
+  color: $pagination-button-text-color;
   background-color: $pagination-button-hover-color;
 }
