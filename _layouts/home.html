@@ -5,18 +5,9 @@ layout: default
 {% for post in paginator.posts %}
   <div class="posts-container"> 
     <h2><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h2>
-    <figure class="thumbnail-container">
-      {% if post.unsplashid %}
-      <a href="{{ site.github.url }}{{ post.url }}">
-        <img src="https://source.unsplash.com/{{ post.unsplashid }}/width=680" alt="Unsplash" />
-      </a>
-      {% endif %}
-      {% if post.image %}
-      <a href="{{ site.github.url }}{{ post.url }}">
-        <img src="{{ site.github.url }}/assets/img/{{ post.image }}">
-      </a>
-      {% endif %}
-    </figure>
+    {% if site.data.settings.show_thumbnail %}
+      {% include thumbnail.html %}
+    {% endif %}
     <p>
       {{ post.content | strip_html | truncate: 100 }} <a href="{{ site.github.url }}{{ post.url }}">閱讀更多</a>
       <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>

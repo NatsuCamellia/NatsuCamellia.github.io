@@ -5,6 +5,8 @@ disqus:
 
 hide_post_share: true
 hide_related_posts: true
+show_thumbnail: false
+show_in_post_image: false
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'G-3X2CNCRM7L'
