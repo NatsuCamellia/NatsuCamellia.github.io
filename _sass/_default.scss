@@ -53,37 +53,30 @@
 
 .menu-content {
   float: left;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.menu-content a {
+.menu-item {
   font-size: 1rem;
   padding-right: 10px;
-  color: $light-gray-color;
+  color: $menu-item-color;
   font-weight: bold;
   text-decoration: none;
 }
 
-.menu-content a:hover {
+.menu-item:hover {
   color: $link-hover-color;
 }
 
-.social-icons {
-  float: right;
+.menu-container {
+  display: inline;
 }
 
-.social-icons a {
-  color: $light-gray-color;
-  font-size: 1rem;
-}
-
-@media (max-width: $elements-responsive-width) {
-  .social-icons {
-    float: left;
-    padding-top: 0px;
-  }
-  .menu-content {
-    margin-bottom: 5px;
-  }
+.social-icon {
+  color: $social-icons-color;
+  margin: 0px 10px;
 }
 
 /*
@@ -91,19 +84,17 @@
 */
 
 .footer {
-  color: $light-gray-color;
+  color: $footer-color;
   text-align: center;
   margin: 2rem;
 }
 
-.footer a {
-  color: $light-gray-color;
-  padding: 10px;
+.footer-description a {
   text-decoration: none;
 }
 
-.footer a:hover {
-  color: $dark-gray-color;
+.footer-description a:hover {
+  color: black;
 }
 
 .footer-description {

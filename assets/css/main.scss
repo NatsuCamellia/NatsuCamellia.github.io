@@ -10,22 +10,26 @@ $secondary-color:        #8A90A5;
 $accent-color:           #A786A6;
 
 $dark-gray-color:        #333;
+$gray-color:             #666;
 $light-gray-color:       #999;
 $extra-light-gray-color: #ccc;
 
 $body-color:             $main-color;
 $text-color:             black;
+$menu-item-color:        $gray-color;
+$social-icons-color:     $gray-color;
+$footer-color:           $gray-color;
 $link-color:             $text-color;
 $link-hover-color:       $text-color;
 $strong-color:           $main-color;
 $selection-color:        $secondary-color;
 
-$post-date-color:        $light-gray-color;
+$post-date-color:        $gray-color;
 $read-time-color:        $accent-color;
 
 $code-background-color:   #f5f5f5;
 $pagination-button-text-color: $text-color;
-$pagination-button-text-invalid-color: $light-gray-color;
+$pagination-button-text-invalid-color: $gray-color;
 $pagination-button-border-color: $extra-light-gray-color;
 $pagination-button-hover-color: $extra-light-gray-color;
 $posts-container-background-color: $main-color;

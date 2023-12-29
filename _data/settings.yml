@@ -17,8 +17,8 @@ menu:
 - {name: 'Writing',   url: 'writing.html'}
 
 social:
-- {icon: 'github',     link: 'https://www.github.com/NatsuCamellia'}
-- {icon: 'envelope',   link: 'mailto:natsucamellia@gmail.com'}
+- {icon: 'github',     link: 'https://www.github.com/NatsuCamellia', aria_label: 'GitHub'}
+- {icon: 'envelope',   link: 'mailto:natsucamellia@gmail.com', aria_label: 'Email'}
 
 # Customize site text
 pagination:
