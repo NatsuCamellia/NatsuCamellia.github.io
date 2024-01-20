@@ -42,3 +42,19 @@ p a {
   text-decoration: underline;
   font-weight: bold;
 }
+
+.tags-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid $tag-color;
+  color: $tag-color;
+  font-size: 0.8rem;
+}

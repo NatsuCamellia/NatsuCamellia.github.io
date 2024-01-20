@@ -20,6 +20,11 @@ layout: default
   {% endif %}
   by {{ site.author }}.
 </span>
+{% if site.data.settings.hide_post_tags != true %}
+  {% if page.tags.size > 0 %}
+    {% include tags.html %}
+  {% endif %}
+{% endif %}
 {% if site.data.settings.hide_post_share != true %}
   {% include social-sharing.html %}
 {% endif %}
