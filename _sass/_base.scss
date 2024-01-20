@@ -30,11 +30,6 @@ div.container {
   overflow: hidden;
 }
 
-::selection {
-  background: $selection-color;
-  color: white;
-}
-
 a {
   color: $link-color;
 }
