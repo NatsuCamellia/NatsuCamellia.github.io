@@ -4,6 +4,7 @@ title: "在 Arm64 Mac 上編譯 Aseprite"
 author: "NatsuCamellia"
 categories: Tutorial
 tags: [Aseprite, "Pixel Art"]
+update: 2024-01-24
 ---
 
 [Aseprite](https://www.aseprite.org) 是一款專門為像素畫設計的繪圖軟體，功能簡單強大，在像素畫領域中非常有名，深受許多創作者喜愛。這款軟體在 Aseprite 官方網站以 19.99 美金販售，也可在 Steam 上以較便宜價格約 300 元新台幣購買。
