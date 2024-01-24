@@ -3,6 +3,7 @@ layout: post
 title: "Java Collection"
 author: "NatsuCamellia"
 categories: Java
+tags: [Java]
 ---
 
 只會用 Array 嗎？在程式設計中有個專業知識稱為「資料結構」，資料結構可以幫助我們有效率地存取資料。Java Collections 框架就是為此而生，提供了各種實用的功能！

@@ -3,6 +3,7 @@ layout: post
 title: "興趣的意義是什麼"
 author: "NatsuCamellia"
 categories: Thought
+tags: [興趣]
 update: 2023-03-09
 ---
 

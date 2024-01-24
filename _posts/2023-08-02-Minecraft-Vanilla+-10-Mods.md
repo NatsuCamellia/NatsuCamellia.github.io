@@ -3,6 +3,7 @@ layout: post
 title: "Minecraft Vanilla+ 十個推薦模組"
 author: "NatsuCamellia"
 categories: Minecraft
+tags: [Minecraft]
 unsplashid: 6eL_lMJDwjM
 ---
 

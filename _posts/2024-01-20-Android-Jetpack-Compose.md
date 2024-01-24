@@ -3,6 +3,7 @@ layout: post
 title: "Android Jetpack Compose"
 author: "NatsuCamellia"
 categories: Journal
+tags: [Android]
 ---
 
 Android Jetpack 是 Google 開發用來製作 Android 應用程式的現代函式庫，核心思想是：

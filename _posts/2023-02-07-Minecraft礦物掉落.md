@@ -3,7 +3,7 @@ layout: post
 title: "Minecraft 礦物掉落"
 author: "NatsuCamellia"
 categories: Minecraft
-image: 
+tags: [Minecraft]
 update: 2023-02-07
 ---
 
