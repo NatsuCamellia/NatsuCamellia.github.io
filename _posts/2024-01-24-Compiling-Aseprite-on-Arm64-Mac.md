@@ -37,7 +37,7 @@ tags: [Aseprite, "Pixel Art"]
 1.  `cmake --version` 檢查電腦中是否已經安裝版本 3.16 以上的 CMake。
 2. `brew install cmake` 從 Homebrew 安裝 CMake。
 
-## Ninja
+### Ninja
 
 Ninja 是由 Google 員工 Evan Martin 開發的小型建置系統。 Ninja 注重速度，被設計為盡可能快地運行。
 
