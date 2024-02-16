@@ -10,7 +10,6 @@ permalink: /about
 
 ## 關於網站
 
-- 字體：[Noto Serif TC](https://fonts.google.com/noto/specimen/Noto+Serif+TC#styles)、[Noto Sans TC](https://fonts.google.com/noto/specimen/Noto+Sans+TC#styles)
 - 伺服器：[Github Pages](https://www.google.com/search?client=safari&rls=en&q=github+page&ie=UTF-8&oe=UTF-8)
 - 框架：[Jekyll](https://jekyllrb.com)
 - 主題：[Lagrange](https://github.com/LeNPaul/Lagrange)
