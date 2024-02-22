@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<h1>NatsuCamellia</h1>
+
+<div class="site-intro">
+  <p>
+    你好，歡迎來到我的 Blog。我是夏玉茗，一名正在念資訊工程的大學生，閒暇的時間我喜歡閱讀、寫作、研究軟體，也喜歡嘗試新的事物。
+    我會在這裡分享我在學習、生活中的點滴，也會分享一些技術文章。
+  </p>
+</div>
+
+
 {% for post in paginator.posts %}
   <div class="posts-container"> 
     <h2><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h2>
