@@ -26,42 +26,6 @@ header {
   margin-bottom: 2rem;
 }
 
-/*
-  Social icons
-*/
-
-.social-icon {
-  color: $social-icons-color;
-  margin: 0px 10px;
-}
-
-/*
-  Footer
-*/
-
-.footer {
-  color: $footer-color;
-  text-align: center;
-  margin: 2rem;
-}
-
-.footer-description a {
-  text-decoration: none;
-}
-
-.footer-description a:hover {
-  color: black;
-}
-
-.footer-description {
-  display: block;
-  margin-top:3px;
-  margin-bottom: 1rem;
-  color: $light-gray-color;
-  font-family: $sans-serif-font-family;
-  font-size:0.8rem;
-}
-
 figcaption {
   font-size: 0.8rem;
 }
