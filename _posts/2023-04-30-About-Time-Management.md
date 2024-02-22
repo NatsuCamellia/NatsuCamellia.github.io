@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "關於時間規劃這檔事"
-author: "NatsuCamellia"
 categories: Thought
-tags: [時間]
-unsplashid: BXOXnQ26B7o
+description: "如何規劃時間才能緩解沈重的壓力"
 ---
 
 ## 閒下來就慌！

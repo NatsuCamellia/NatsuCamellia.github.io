@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "每日活動規劃、卡片盒筆記"
-author: "NatsuCamellia"
 categories: Journal
-tags: [筆記, 生活]
-image: 
-unsplashid: FoKO4DpXamQ
+description: "我如何規劃空閒時間，以及學到的教訓"
 ---
 
 ## 每日活動規劃

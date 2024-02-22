@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Minecraft Vanilla+ 十個推薦模組"
-author: "NatsuCamellia"
 categories: Minecraft
-tags: [Minecraft]
-unsplashid: 6eL_lMJDwjM
+description: "非常有用以及非常美觀的模組"
 ---
 
 筆者認為模組新增了一些方塊，又或是更改了 Minecraft 原有的機制，會導致遊戲的體驗不夠純粹。筆者希望能夠享受 Minecraft 最原汁原味的體驗，因此搜羅了一些實用的 Vanilla+ 模組，標準是不破壞遊戲平衡以及不新增任何物品。以下模組皆可使用 Fabric 1.20.1 載入。

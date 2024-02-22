@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "週休三日而品味生活"
-author: "NatsuCamellia"
 categories: Journal
-tags: [社團, 生活]
-image: 
-unsplashid: U3C79SeHa7k
+description: "讓我體驗週休三日的集中課表"
 ---
 
 ## 選課

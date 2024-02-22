@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Minecraft 礦物掉落"
-author: "NatsuCamellia"
 categories: Minecraft
-tags: [Minecraft]
-update: 2023-02-07
+description: "Minecraft 礦物如何掉落，以及平均掉落幾個礦物"
 ---
 
 不想看分析可以直接下拉看**期望值整理**。

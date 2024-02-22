@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "2023 中秋連假"
-author: "NatsuCamellia"
 categories: Journal
-tags: [Jekyll, 生活, 連假]
-image: 
-unsplashid: EUNpeLYtP1o
+description: "愛現大會與五天的中秋連假"
 ---
 
 ## 前瞻工作坊

@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Minecraft 模組計畫"
-author: "NatsuCamellia"
 categories: Journal
-tags: [Minecraft]
-image: 20230118/minecraft.jpg
+description: "成為模組創作者的契機，以及第一個專案"
 ---
 
 我回到雲林之後就一直宅在家裡不知道要做什麼，直到某一天我突然看到一系列 [Minecraft 模組教學影片](https://www.youtube.com/playlist?list=PLKGarocXCE1EMxeBvqsOWZVkYD_Vd_uwW)，作者教的很好，發音也很標準，可以練英聽（？），而且我發現並不難，於是就開始研究模組了。

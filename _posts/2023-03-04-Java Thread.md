@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Java Thread"
-author: "NatsuCamellia"
 categories: Java
-tags: [Java]
+description: "如何在 Java 中實作多執行緒"
 ---
 
 > 當本文使用 Thread 時，指的是 Thread 這個類別，而非執行緒。

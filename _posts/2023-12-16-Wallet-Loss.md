@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "遺失錢包"
-author: "NatsuCamellia"
 categories: Journal
-tags: [LeetCode, "Google STEP"]
-image: 
-unsplashid: 5GcinGOptTs
+description: "在台大校園丟失錢包的離奇故事"
 ---
 
 ## 遺失錢包

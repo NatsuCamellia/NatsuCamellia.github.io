@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "大學與高中的不同"
-author: "NatsuCamellia"
 categories: Thought
-tags: [大學, 高中]
-unsplashid: YRMWVcdyhmI
+description: "我喜歡大學勝過高中的幾個面向"
 ---
 
 ## 自學

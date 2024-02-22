@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Text Formatting Examples"
-author: "Paul Le"
-categories: journal
-tags: [documentation,sample]
-image: cards.jpg
+categories: Template
+description: "Example for testing text formatting"
 ---
 
 # Markdown Support

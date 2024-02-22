@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "興趣的意義是什麼"
-author: "NatsuCamellia"
 categories: Thought
-tags: [興趣]
-update: 2023-03-09
+description: "關於我重新思考何謂興趣的過程"
 ---
 
 最近和朋友在吃飯時聊到彼此閒暇時都在做什麼，我的空閒時間幾乎都被我拿來完成作業與學習，而朋友卻說：
