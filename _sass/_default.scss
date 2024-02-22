@@ -12,8 +12,6 @@
   margin-bottom: 4rem;
 }
 
-/*48em*/
-
 @media (max-width: $container-responsive-width) {
   .container {
     width: 90vw;
@@ -28,51 +26,9 @@ header {
   margin-bottom: 2rem;
 }
 
-.header {
-  padding: 0.5rem 0;
-  margin-bottom: 4rem;
-  font-family: $sans-serif-font-family;
-}
-
-.header-title {
-  margin-bottom: 0px;
-}
-
-.header-subtitle {
-  color: $light-gray-color;
-}
-
 /*
-  Menu
+  Social icons
 */
-
-.menu {
-  padding-top: 0.5rem;
-  display: block;
-}
-
-.menu-content {
-  float: left;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.menu-item {
-  font-size: 1rem;
-  padding-right: 10px;
-  color: $menu-item-color;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.menu-item:hover {
-  color: $link-hover-color;
-}
-
-.menu-container {
-  display: inline;
-}
 
 .social-icon {
   color: $social-icons-color;
