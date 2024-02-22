@@ -61,7 +61,10 @@ blockquote {
 
 hr {
   border: 0px;
-  border-top: 2px solid $accent-color;
+  background-color: $light-gray-color;
+  height: 1px;
+  width: 100px;
+  margin: 2rem auto;
 }
 
 /*
