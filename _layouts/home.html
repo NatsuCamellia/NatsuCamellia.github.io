@@ -22,11 +22,7 @@ layout: default
     <a href="{{ site.github.url }}{{ post.url }}" class="post-link">
       <aside class="date">{{ post.date | date: "%b %d" }}</aside>
       <h3>{{ post.title }}</h3>
-      {% if post.description %}
-        {{ post.description }}
-      {% else %} 
-        Here are some description of the post.
-      {% endif %}
+      {{ post.description }}
     </a>
   </div>
 {% endfor %}
