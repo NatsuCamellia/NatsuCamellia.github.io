@@ -19,11 +19,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $serif-font-family;
-  color: $dark-gray-color;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  text-decoration: none;
 }
 
 div.container {
@@ -31,11 +26,12 @@ div.container {
 }
 
 a {
-  color: $link-color;
+  color: $text-color;
 }
 
 a:hover {
-  color: $link-hover-color
+  color: $link-hover-color;
+  transition: 0.2s;
 }
 
 img {
