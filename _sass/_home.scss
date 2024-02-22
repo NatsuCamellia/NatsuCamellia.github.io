@@ -35,6 +35,12 @@
 
 .post-link {
   text-decoration: none;
+  color: $light-gray-color;
+}
+
+.post-link h2 {
+  color: $text-color;
+  margin-bottom: 0.5rem;
 }
 
 .date {
