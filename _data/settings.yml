@@ -1,34 +1,5 @@
-# Change 'comments' to true for Disqus comments
-disqus:
-  comments: false
-  disqus_shortname: 'https-lenpaul-github-io-lagrange'
-
-hide_post_share: true
-hide_related_posts: true
-show_thumbnail: false
-show_in_post_image: false
-
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'G-3X2CNCRM7L'
 
 menu:
-- {name: 'About',   url: 'about.html'}
 - {name: 'Categories',   url: 'categories.html'}
-- {name: 'Writing',   url: 'writing.html'}
-
-social:
-- {icon: 'github',     link: 'https://www.github.com/NatsuCamellia', aria_label: 'GitHub'}
-- {icon: 'envelope',   link: 'mailto:natsucamellia@gmail.com', aria_label: 'Email'}
-
-# Customize site text
-pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
-
-sharing_button_prompt: 'Feel free to share!'
-
-related_posts: 'You may also enjoy:'
-
-post_date_prefix: 'Written on'
-
-update_date_prefix: 'last updated on'
