@@ -2,35 +2,17 @@
 layout: default
 ---
 
-<h1>
-  {{ page.title }}
-</h1>
-{% if site.data.settings.show_in_post_image %}
-  {% include in-post-image.html %}
-{% endif %}
+<header>
+  <aside class="home-link">
+    <a href="{{ site.github.url }}/">Home</a>
+  </aside>
+  <h1>
+    {{ page.title }}
+  </h1>
+  <p class="post-date">
+    {{ page.date | date: "%B %d, %Y" }}
+  </p>
+</header>
 <article>
   {{ content }}
 </article>
-<span class="post-date">
-  {% if site.hide_post_date != true %}
-    {% include post-date.html %},
-  {% endif %}
-  {% if page.update %}
-    {% include update-date.html %},
-  {% endif %}
-  by {{ site.author }}.
-</span>
-{% if site.data.settings.hide_post_tags != true %}
-  {% if page.tags.size > 0 %}
-    {% include tags.html %}
-  {% endif %}
-{% endif %}
-{% if site.data.settings.hide_post_share != true %}
-  {% include social-sharing.html %}
-{% endif %}
-{% if site.data.settings.hide_related_posts != true %}
-  {% include related-posts.html %}
-{% endif %}
-{% if site.data.settings.disqus.comments %}
-  {% include disqus.html %}
-{% endif %}
