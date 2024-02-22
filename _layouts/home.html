@@ -12,12 +12,17 @@ layout: default
 </div>
 
 {% for post in paginator.posts %}
+  {% capture year %}{{ post.date | date: '%B' }}{% endcapture %}
+  {% capture next_year %}{{ post.next.date | date: '%B' }}{% endcapture %}
+  {% if year != next_year %}
+    <div class="text-divider">{{ post.date | date: '%Y' }}</div>
+  {% endif %}
   <div class="posts-container"> 
     <a href="{{ site.github.url }}{{ post.url }}" class="post-link">
       <aside class="date">{{ post.date | date: "%b %d" }}</aside>
       <h2>{{ post.title }}</h2>
       <p>
-        {{ post.content | strip_html | truncate: 100 }}
+        Here are some description of the post.
       </p>
     </a>
   </div>
