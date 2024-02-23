@@ -1,20 +1,20 @@
 ---
 ---
 
-$sans-serif-font-family: sans-serif;
-$serif-font-family:      serif;
+$sans-serif-font-family: "Noto Sans TC", "PingFang TC", "Microsoft YaHei", sans-serif;
+$serif-font-family:      "Noto Serif TC", "Songti TC", serif;
 $code-font-family:       monospace;
 
 $main-color:             #e5724c;
 
 $dark-gray-color:        #333;
-// $gray-color:             #666;
-$light-gray-color:       #999;
+$gray-color:             #777;
+// $light-gray-color:       #999;
 // $extra-light-gray-color: #ccc;
 
 $body-color:             $main-color;
-$text-color:             black;
-$description-color:      $light-gray-color;
+$text-color:             $dark-gray-color;
+$description-color:      $gray-color;
 $link-color:             $text-color;
 $link-hover-color:       $main-color;
 

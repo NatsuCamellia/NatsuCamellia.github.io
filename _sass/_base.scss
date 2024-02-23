@@ -11,6 +11,7 @@ body {
   color: $text-color;
   line-height: 2rem;
   margin: 0;
+  font-weight: 300;
 }
 
 p {
@@ -51,7 +52,7 @@ figure {
 
 figcaption {
   text-align: center;
-  color: $light-gray-color;
+  color: $gray-color;
 }
 
 blockquote {
@@ -64,7 +65,7 @@ blockquote {
 
 hr {
   border: 0px;
-  background-color: $light-gray-color;
+  background-color: $gray-color;
   height: 1px;
   width: 100px;
   margin: 2rem auto;
